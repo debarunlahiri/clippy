@@ -311,10 +311,10 @@ fun ClipboardItemCard(
 /** Get icon for clipboard item type */
 private fun getIconForType(type: ClipType) =
         when (type) {
-            ClipType.TEXT -> Icons.Default.Article
+            ClipType.TEXT -> Icons.Default.Edit
             ClipType.IMAGE -> Icons.Default.Image
             ClipType.URI -> Icons.Default.Info
-            ClipType.HTML -> Icons.Default.Article
+            ClipType.HTML -> Icons.Default.Edit
             ClipType.MULTIPLE -> Icons.Default.List
             ClipType.OTHER -> Icons.Default.Info
         }
